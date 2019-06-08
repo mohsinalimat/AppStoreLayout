@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AppsViewController.swift
 //  AppStoreLayout
 //
 //  Created by Juan Laube on 6/8/19.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AppsViewController: UIViewController {
+
+    @IBOutlet weak var collectionView: UICollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-
